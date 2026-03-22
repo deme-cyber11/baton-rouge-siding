@@ -1,0 +1,147 @@
+{
+  "_build_pass": "1",
+  "_date": "2026-03-22",
+  "site": {
+    "business_name": "Baton Rouge Siding Installation",
+    "domain": "batonrougesiding.com",
+    "niche": "Siding Installation",
+    "niche_slug": "siding-installation",
+    "city": "Baton Rouge",
+    "state": "Louisiana",
+    "state_abbr": "LA",
+    "county": "East Baton Rouge Parish",
+    "phone": "(225) 535-4918",
+    "phone_formatted": "(225) 535-4918",
+    "phone_digits": "2255354918",
+    "email": "contact@batonrougesiding.com",
+    "tagline": "Baton Rouge Siding Experts \u2014 Licensed, Local & Built to Last",
+    "web3forms_key": "0219881f-13e5-4175-b720-517b8d10c028"
+  },
+  "seo": {
+    "primary_keyword": "siding installation baton rouge la",
+    "search_volume": 70,
+    "cpc": 0,
+    "rental_tier": "$250/mo",
+    "meta_title": "Siding Installation in Baton Rouge, LA | Baton Rouge Siding Installation",
+    "meta_description": "Professional siding installation in Baton Rouge, LA. Licensed & insured. Free estimates. Call (225) 535-4918."
+  },
+  "design": {
+    "primary_color": "#1a3a5c",
+    "accent_color": "#e8a838",
+    "style": "trust_navy",
+    "font_heading": "Space Grotesk",
+    "font_body": "DM Sans"
+  },
+  "trust_signals": {
+    "badge_1": "Licensed & Insured",
+    "badge_2": "Free Estimates",
+    "badge_3": "5-Star Rated",
+    "badge_4": "Same-Day Service"
+  },
+  "services": [
+    {
+      "slug": "vinyl-siding",
+      "name": "Vinyl Siding"
+    },
+    {
+      "slug": "fiber-cement-siding",
+      "name": "Fiber Cement Siding"
+    },
+    {
+      "slug": "siding-replacement",
+      "name": "Siding Replacement"
+    },
+    {
+      "slug": "siding-repair",
+      "name": "Siding Repair"
+    },
+    {
+      "slug": "wood-siding",
+      "name": "Wood Siding"
+    },
+    {
+      "slug": "siding-installation",
+      "name": "Siding Installation"
+    }
+  ],
+  "service_areas": [
+    "baton-rouge",
+    "gonzales",
+    "prairieville",
+    "zachary",
+    "baker",
+    "port-allen",
+    "walker",
+    "denham-springs",
+    "sorrento",
+    "plaquemine"
+  ],
+  "faqs": [
+    {
+      "q": "How much does siding installation cost in Baton Rouge?",
+      "a": "Siding installation in Baton Rouge typically ranges from $6,000 to $20,000 for a full home. Vinyl siding averages $7\u2013$12 per sq ft installed. Fiber cement (HardiePlank) runs $10\u2013$18 per sq ft. We provide free in-home estimates."
+    },
+    {
+      "q": "What siding material is best for Louisiana's climate?",
+      "a": "Fiber cement siding (HardiePlank) is our top recommendation for Baton Rouge \u2014 it resists humidity, termites, and hurricane-force winds. High-quality vinyl is a cost-effective alternative. Avoid wood siding in Louisiana's wet climate."
+    },
+    {
+      "q": "Do you offer storm damage siding repair?",
+      "a": "Yes \u2014 we handle insurance claims for storm and hail damage. Louisiana homeowners policies often cover storm-damaged siding. We document damage, work with adjusters, and handle all repairs."
+    },
+    {
+      "q": "Do you serve Gonzales, Prairieville, and Zachary?",
+      "a": "Yes \u2014 we serve all of East Baton Rouge Parish and surrounding areas including Gonzales, Prairieville, Zachary, Baker, Port Allen, Walker, and Denham Springs."
+    },
+    {
+      "q": "How long does a full siding replacement take?",
+      "a": "Most full home siding replacements take 3\u20137 days depending on home size and siding material. We handle all tear-off, installation, trim, and cleanup."
+    }
+  ],
+  "pages": {
+    "root": [
+      "index.html",
+      "about.html",
+      "contact.html",
+      "faq.html",
+      "thank-you.html",
+      "404.html",
+      "sitemap.xml",
+      "robots.txt",
+      "privacy-policy.html",
+      "terms-of-service.html"
+    ],
+    "services": [
+      "services/vinyl-siding.html",
+      "services/fiber-cement-siding.html",
+      "services/siding-replacement.html",
+      "services/siding-repair.html",
+      "services/wood-siding.html",
+      "services/siding-installation.html"
+    ],
+    "locations": [
+      "locations/baton-rouge.html",
+      "locations/gonzales.html",
+      "locations/prairieville.html",
+      "locations/zachary.html",
+      "locations/baker.html",
+      "locations/port-allen.html",
+      "locations/walker.html",
+      "locations/denham-springs.html",
+      "locations/sorrento.html",
+      "locations/plaquemine.html"
+    ]
+  },
+  "build": {
+    "github_repo": "baton-rouge-siding",
+    "github_org": "deme-cyber11",
+    "twilio_number": "(225) 535-4918",
+    "ga4_id": "G-D6ZBY16329",
+    "indexnow_key": "a3f7b2c9d4e1f8a5b6c3d0e7f4a1b8c5",
+    "started": "2026-03-22",
+    "completed": "",
+    "qa_passed": false,
+    "committed": false,
+    "domain_registered": false
+  }
+}
