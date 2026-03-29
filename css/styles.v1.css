@@ -202,7 +202,7 @@ ul{list-style:none}
 
 /* ===== CTA BANNER ===== */
 .cta-banner,.cta{
-  background:linear-gradient(135deg,var(--accent),var(--accent-hover));
+  background:linear-gradient(135deg,var(--primary-dark),var(--primary));
   color:var(--white);padding:64px 0;text-align:center;
 }
 .cta-banner h2,.cta h2{font-size:2rem;margin-bottom:12px;color:var(--white)}
