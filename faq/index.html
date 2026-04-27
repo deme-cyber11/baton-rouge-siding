@@ -139,31 +139,82 @@ body{padding-bottom:70px}
 </style>
 
 <!-- BreadcrumbList Schema -->
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"BreadcrumbList",
-  "itemListElement":[
-    {"@type":"ListItem","position":1,"name":"Home","item":"https://redsticksidingandroof.com/"},
-    {"@type":"ListItem","position":2,"name":"FAQ","item":"https://redsticksidingandroof.com/faq"}
-  ]
-}
-</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://redsticksidingandroof.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "FAQ",
+      "item": "https://redsticksidingandroof.com/faq"
+    }
+  ],
+  "dateModified": "2026-04-25"
+}</script>
 
 <!-- FAQPage Schema -->
-<script type="application/ld+json">
-{
-  "@context":"https://schema.org",
-  "@type":"FAQPage",
-  "mainEntity":[
-    {"@type":"Question","name":"How much does siding installation cost in Baton Rouge?","acceptedAnswer":{"@type":"Answer","text":"Siding installation in Baton Rouge typically ranges from $6,000 to $20,000 for a full home. Vinyl siding averages $7\u201312 per sq ft installed. Fiber cement (HardiePlank) runs $10\u201318 per sq ft. We provide free in-home estimates."}},
-    {"@type":"Question","name":"What siding material is best for Louisiana's climate?","acceptedAnswer":{"@type":"Answer","text":"Fiber cement siding (HardiePlank) is our top recommendation for Baton Rouge \u2014 it resists humidity, termites, and hurricane-force winds. High-quality vinyl is a cost-effective alternative. Avoid wood siding in Louisiana's wet climate."}},
-    {"@type":"Question","name":"Do you offer storm damage siding repair?","acceptedAnswer":{"@type":"Answer","text":"Yes \u2014 we handle insurance claims for storm and hail damage. Louisiana homeowners policies often cover storm-damaged siding. We document damage, work with adjusters, and handle all repairs."}},
-    {"@type":"Question","name":"Do you serve Gonzales, Prairieville, and Zachary?","acceptedAnswer":{"@type":"Answer","text":"Yes \u2014 we serve all of East Baton Rouge Parish and surrounding areas including Gonzales, Prairieville, Zachary, Baker, Port Allen, Walker, and Denham Springs."}},
-    {"@type":"Question","name":"How long does a full siding replacement take?","acceptedAnswer":{"@type":"Answer","text":"Most full home siding replacements take 3\u20137 days depending on home size and siding material. We handle all tear-off, installation, trim, and cleanup."}}
-  ]
-}
-</script>
+<script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How much does siding installation cost in Baton Rouge?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Siding installation in Baton Rouge typically ranges from $6,000 to $20,000 for a full home. Vinyl siding averages $7–12 per sq ft installed. Fiber cement (HardiePlank) runs $10–18 per sq ft. We provide free in-home estimates."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What siding material is best for Louisiana's climate?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fiber cement siding (HardiePlank) is our top recommendation for Baton Rouge — it resists humidity, termites, and hurricane-force winds. High-quality vinyl is a cost-effective alternative. Avoid wood siding in Louisiana's wet climate."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you offer storm damage siding repair?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — we handle insurance claims for storm and hail damage. Louisiana homeowners policies often cover storm-damaged siding. We document damage, work with adjusters, and handle all repairs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do you serve Gonzales, Prairieville, and Zachary?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — we serve all of East Baton Rouge Parish and surrounding areas including Gonzales, Prairieville, Zachary, Baker, Port Allen, Walker, and Denham Springs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a full siding replacement take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most full home siding replacements take 3–7 days depending on home size and siding material. We handle all tear-off, installation, trim, and cleanup."
+      }
+    }
+  ],
+  "dateModified": "2026-04-25",
+  "speakable": {
+    "@type": "SpeakableSpecification",
+    "cssSelector": [
+      ".quick-facts",
+      "main h2",
+      "main p:first-of-type"
+    ]
+  }
+}</script>
 <style>
 
 /* Floating CTA circles — injected by cta-strategy.py */
