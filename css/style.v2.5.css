@@ -242,6 +242,7 @@ html.js .reveal.visible {
 .nav__toggle svg { width: 28px; height: 28px; fill: var(--color-white); }
 
 @media (max-width: 768px) {
+  .nav { display: block; }
   .nav__links { display: none; }
   .nav__toggle { display: block; }
   .nav__links.open {

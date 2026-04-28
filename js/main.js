@@ -77,15 +77,14 @@ document.querySelectorAll('.faq-q').forEach(function(q){
   document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el);});
 })();
 
-/* ===== HEADER SCROLL SHADOW ===== */
+/* ===== NAV SCROLL BEHAVIOUR ===== */
 (function(){
-  var header=document.querySelector('.site-header');
-  if(!header)return;
-  window.addEventListener('scroll',function(){
-    if(window.scrollY>50){
-      header.style.boxShadow='0 4px 20px rgba(0,0,0,.12)';
-    }else{
-      header.style.boxShadow='0 2px 12px rgba(0,0,0,.08)';
-    }
-  },{passive:true});
+  var nav=document.getElementById('mainNav');
+  if(!nav)return;
+  function onScroll(){
+    if(window.scrollY>60){nav.classList.add('scrolled');}
+    else{nav.classList.remove('scrolled');}
+  }
+  window.addEventListener('scroll',onScroll,{passive:true});
+  onScroll();
 })();
