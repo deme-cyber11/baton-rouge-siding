@@ -239,7 +239,7 @@ html.js .reveal.visible {
   cursor: pointer;
   padding: 8px;
 }
-.nav__toggle svg { width: 28px; height: 28px; fill: var(--color-white); }
+.nav__toggle svg { width: 28px; height: 28px; fill: var(--color-white); color: var(--color-white); stroke: var(--color-white); }
 
 @media (max-width: 768px) {
   .nav { display: block; }
