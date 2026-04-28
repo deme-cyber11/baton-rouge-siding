@@ -13,6 +13,14 @@
   .service-hero { padding-top: 6rem; }
 }
 
+/* Mobile quick-facts section: collapse two-column to single column */
+@media (max-width: 768px) {
+  .quick-facts-section > .container > div {
+    grid-template-columns: 1fr !important;
+    gap: 24px !important;
+  }
+}
+
 /* Mobile contact grid */
 @media (max-width: 640px) {
   .contact-grid { grid-template-columns: 1fr !important; }
