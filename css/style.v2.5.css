@@ -337,10 +337,7 @@ html.js .reveal.visible {
   margin-bottom: 24px;
 }
 .hero__title span {
-  background: linear-gradient(135deg, var(--color-accent), #38bdf8);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: var(--color-accent);
 }
 .hero__desc {
   font-size: 1.25rem;
