@@ -48,7 +48,16 @@ document.querySelectorAll('.ba-slider').forEach(function(slider){
   });
 })();
 
-/* ===== FAQ ACCORDION ===== */
+/* ===== FAQ ACCORDION (v2.5) ===== */
+document.querySelectorAll('.faq__question').forEach(function(btn){
+  btn.addEventListener('click',function(){
+    var item=this.closest('.faq__item');
+    var wasOpen=item.classList.contains('active');
+    item.closest('.faq__list').querySelectorAll('.faq__item').forEach(function(fi){fi.classList.remove('active')});
+    if(!wasOpen)item.classList.add('active');
+  });
+});
+/* legacy v1 FAQ (keep for inner pages not yet migrated) */
 document.querySelectorAll('.faq-q').forEach(function(q){
   q.addEventListener('click',function(){
     var item=this.parentElement;
@@ -57,6 +66,16 @@ document.querySelectorAll('.faq-q').forEach(function(q){
     if(!wasOpen)item.classList.add('open');
   });
 });
+
+/* ===== REVEAL ON SCROLL ===== */
+(function(){
+  if(!('IntersectionObserver' in window))return;
+  document.documentElement.classList.add('js');
+  var obs=new IntersectionObserver(function(entries){
+    entries.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');obs.unobserve(e.target);}});
+  },{threshold:0.1,rootMargin:'0px 0px -40px 0px'});
+  document.querySelectorAll('.reveal').forEach(function(el){obs.observe(el);});
+})();
 
 /* ===== HEADER SCROLL SHADOW ===== */
 (function(){
