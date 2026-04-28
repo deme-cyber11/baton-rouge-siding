@@ -1,0 +1,24 @@
+# Red Stick Siding & Roof
+
+> Professional services in Baton Rouge, LA.
+
+## About
+Red Stick Siding & Roof provides professional services in Baton Rouge, LA and surrounding areas.
+
+## Service Areas
+Baton Rouge, Gonzales, Prairieville, Zachary, Baker, Port Allen, Walker, Denham Springs, Sorrento, Plaquemine.
+
+## Contact
+- Phone: (225) 535-4918
+- Email: contact@redsticksidingandroof.com
+- Hours: Mo-Fr 08:00-18:00, Sa 08:00-14:00
+- Website: https://redsticksidingandroof.com
+- Quote Request: https://lead-manager-api.irontigerdigital.workers.dev/lead
+
+## Key Pages
+- [Services](https://redsticksidingandroof.com/services/)
+- [FAQ](https://redsticksidingandroof.com/faq/)
+- [Contact](https://redsticksidingandroof.com/contact/)
+- [Get an Estimate](https://redsticksidingandroof.com/estimate/)
+
+_Last updated: 2026-04-25_
