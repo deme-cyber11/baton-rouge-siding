@@ -2007,3 +2007,16 @@ section[style*="--color-white"] .section-subtitle { color: var(--color-text-ligh
   color: rgba(255, 255, 255, 0.72);
   font-size: 0.9375rem;
 }
+
+/* ===== V2.5 REGRESSION FIXES ===== */
+/* a[href^="tel"] { display:inline-flex } specificity (0,1,1) beats
+   .header-phone { display:none } at (0,1,0) — phone visible on mobile */
+@media (max-width: 768px) {
+  a.header-phone { display: none !important; }
+}
+/* CSS Grid blowout: form inputs have intrinsic min-width that exceeds 1fr column.
+   min-width:0 allows grid children to shrink below intrinsic minimum. */
+@media (max-width: 992px) {
+  .contact-grid > * { min-width: 0; }
+  .contact-info-item > div { min-width: 0; overflow-wrap: break-word; }
+}

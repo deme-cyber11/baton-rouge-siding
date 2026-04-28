@@ -28,6 +28,16 @@ Curated 2026-04-27 from Google SERP + each contractor's website. Use this list f
 | sunrise_roofing@yahoo.com | ✅ | "Hey there," | ⚠ should have been "Hey Eric," |
 | Big Easy Siding | ❌ not sent | — | needs form-submit |
 
+## Tier 2 — Positions 6-10 (next-up contractors, 2026-04-27)
+
+| # | Company | Owner / Contact | Email | Phone | Notes |
+|---|---|---|---|---|---|
+| 6 | J & W Roofing & Construction | **Johnny Wells** (owner) | _form-only_ — https://www.jwroofing-construction.com/contact | (225) 233-0111 | 3rd-gen family business since 1968. Lists vinyl siding in services. |
+| 7 | Southern Home Improvement Center (SHIC) | **Steven Bourgeois** (owner) / James Pinson (GM) | info@southernhomeimprovement.com | (225) 766-4244 | Gulf Coast contractor, Baton Rouge + Slidell offices. Hardie/vinyl/insulated siding. |
+| 8 | Vinyltech Roofing | _not public_ | _form-only_ — https://vinyltechroofing.com/contact-us/ | (504) 469-7590 | 24+ yrs serving BR, Kenner-based. Vinyl siding + roofing. |
+| 9 | Acadian Windows & Siding | _not public_ | _check site contact form_ — https://acadianwindows.com | _check site_ | Vinyl siding specialist, BR coverage. Need to verify direct contact. |
+| 10 | _skipped_ | — | — | — | Tier drops below relevance threshold past #9 (windows-primary / roofing-only with no siding service line). |
+
 ## Lessons
 
 - **Personalization gap:** Brothers (Harry) and Sunrise (Eric) had owner names publicly available — I should have web-searched before sending instead of using "Hey there,". Future lead-shopping script should auto-enrich owner names from the contractor's website BEFORE composing.
