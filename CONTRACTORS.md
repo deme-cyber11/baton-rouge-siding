@@ -28,6 +28,21 @@ Curated 2026-04-27 from Google SERP + each contractor's website. Use this list f
 | sunrise_roofing@yahoo.com | ✅ | "Hey there," | ⚠ should have been "Hey Eric," |
 | Big Easy Siding | ❌ not sent | — | needs form-submit |
 
+---
+
+## Roofing Contractors — Top 5 Map Pack (roofing-primary, BR, 2026-04-27)
+*Use for shopping roofing leads from redsticksidingandroof.com*
+
+| # | Company | Email | Notes |
+|---|---|---|---|
+| 1 | Roof Gecko | office@callroofgecko.com | Roofing-primary, BR map pack |
+| 2 | Ryson Roofing | info@rysonroofing.com | Roofing-primary, BR map pack |
+| 3 | _(no contact)_ | — | No reachable email found |
+| 4 | Geaux Roof LA | geauxroofla@gmail.com | Roofing-primary, BR map pack |
+| 5 | Garcia Roofing | info@garciadidmyroof.com | Roofing-primary, BR map pack |
+
+---
+
 ## Tier 2 — Positions 6-10 (next-up contractors, 2026-04-27)
 
 | # | Company | Owner / Contact | Email | Phone | Notes |
