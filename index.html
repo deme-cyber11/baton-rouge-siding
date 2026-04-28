@@ -205,34 +205,23 @@
 </head>
 <body>
 
-<!-- HEADER -->
-<header class="header">
-<div class="container header-inner">
-  <a href="/" class="logo">Baton Rouge<span> Siding</span></a>
-  <nav class="nav">
-    <a href="/">Home</a>
-    <a href="#services">Services</a>
-    <a href="#about">About</a>
-    <a href="#faq">FAQ</a>
-    <a href="#contact">Contact</a>
-  </nav>
-  <a href="tel:2255354918" class="header-phone"><i class="ph ph-phone"></i> (225) 535-4918</a>
-  <button class="hamburger" onclick="document.querySelector('.mobile-nav').classList.toggle('active')" aria-label="Menu">
-    <span></span><span></span><span></span>
-  </button>
-</div>
-</header>
-
-<!-- MOBILE NAV -->
-<div class="mobile-nav">
-  <button class="mobile-nav-close" onclick="document.querySelector('.mobile-nav').classList.remove('active')" aria-label="Close menu"><i class="ph ph-x"></i></button>
-  <a href="/" onclick="document.querySelector('.mobile-nav').classList.remove('active')">Home</a>
-  <a href="#services" onclick="document.querySelector('.mobile-nav').classList.remove('active')">Services</a>
-  <a href="#about" onclick="document.querySelector('.mobile-nav').classList.remove('active')">About</a>
-  <a href="#faq" onclick="document.querySelector('.mobile-nav').classList.remove('active')">FAQ</a>
-  <a href="#contact" onclick="document.querySelector('.mobile-nav').classList.remove('active')">Contact</a>
-  <a href="tel:2255354918"><i class="ph ph-phone"></i> (225) 535-4918</a>
-</div>
+<!-- ===== NAVIGATION (v2.5 BEM) ===== -->
+<nav class="nav" id="mainNav">
+  <div class="container nav__inner">
+    <a href="/" class="nav__logo">Red Stick <span>Siding</span> &amp; Roof</a>
+    <ul class="nav__links" id="navLinks">
+      <li><a href="/">Home</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="tel:+12255354918" class="nav__cta">Call (225) 535-4918</a></li>
+    </ul>
+    <button class="nav__toggle" id="navToggle" aria-label="Open menu" onclick="document.getElementById('navLinks').classList.toggle('open')">
+      <svg viewBox="0 0 24 24"><path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+    </button>
+  </div>
+</nav>
 
 <!-- ===== HERO (v2.5 BEM) ===== -->
 <section class="hero">
