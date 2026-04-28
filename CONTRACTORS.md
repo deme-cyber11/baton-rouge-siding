@@ -43,7 +43,22 @@ Curated 2026-04-27 from Google SERP + each contractor's website. Use this list f
 
 ---
 
-## Tier 2 — Positions 6-10 (next-up contractors, 2026-04-27)
+## Roofing Tier 2 — Positions 6-10 (next batch, 2026-04-27)
+*Use when Tier 1 roofing slots are tapped for a lead*
+
+| # | Company | Owner / Contact | Email | Website | Phone |
+|---|---|---|---|---|---|
+| 6 | Reliable Roofing of BR | — | info@reliableroofingbr.com | [reliableroofingbr.com](https://reliableroofingbr.com) | (225) 445-1220 |
+| 7 | V&V Roofing | Hugo Bonilla (President) | domingo@vandvroofing.com | [vandvroofing.com](https://vandvroofing.com) | (225) 753-6736 |
+| 8 | Cypress Roofing (Gonzales) | **Caprice Cline** (owner) | caprice@cypressroofingla.com | [cypressroofingla.com](https://cypressroofingla.com) | (225) 450-5507 |
+| 9 | Pelican Roofing | **Nathan Rath** (CEO) | _form-only_ — https://pelicanroof.com/contact-us/ | [pelicanroof.com](https://pelicanroof.com) | (225) 228-2865 |
+| 10 | Red Stick Roofing | — | _verify on site_ | [redstickroofing.com](https://redstickroofing.com) | — |
+
+> ⚠️ Note: Red Stick Roofing (#10) name is similar to our site brand. Confirm Costa approves before outreach.
+
+---
+
+## Siding Tier 2 — Positions 6-10 (next-up contractors, 2026-04-27)
 
 | # | Company | Owner / Contact | Email | Phone | Notes |
 |---|---|---|---|---|---|
