@@ -5,6 +5,10 @@
   --color-accent-glow: rgba(180, 83, 9, 0.3);
 }
 
+/* v1 CSS compat: v1 applies display:flex to .nav which collapses nav__inner width */
+nav.nav { display: block; }
+.nav__inner { width: 100%; box-sizing: border-box; }
+
 /* Fixed header clearance */
 .page-hero    { padding-top: 7rem; padding-bottom: 3rem; }
 .service-hero { padding-top: 7rem; }
