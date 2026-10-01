@@ -50,7 +50,7 @@ body.dm .dm-hero :is(.section-label, .eyebrow, .post-meta, .blog-meta, .meta, .a
 body.dm .dm-hero .dm-hero__actions, body.dm .dm-hero :is(.hero-buttons, .hero-actions, .hero-cta, .cta-buttons) { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 8px; }
 body.dm .dm-hero a.btn, body.dm .dm-hero .btn { display: inline-flex; align-items: center; gap: 10px; padding: 15px 24px; border-radius: 12px; font-weight: 800; text-decoration: none; }
 body.dm .dm-hero :is(.btn-primary, .btn--primary) { background: var(--accent); color: var(--accent-ink); border: 0; }
-body.dm .dm-hero :is(.btn-outline, .btn-secondary, .btn--outline, .btn-outline-white) { background: rgba(255,255,255,.08); color: #fff; border: 1.5px solid rgba(255,255,255,.42); }
+body.dm .dm-hero :is(.btn-outline, .btn-secondary, .btn--outline, .btn-outline-white, .btn--ghost, .btn-ghost) { background: rgba(255,255,255,.08); color: #fff; border: 1.5px solid rgba(255,255,255,.42); }
 
 /* ---------- bands ---------- */
 body.dm .dm-band { padding: clamp(56px, 7vw, 92px) 0; background: #fff; }
@@ -152,7 +152,7 @@ body.dm .dm-cta :is(.dm-cta__actions, .cta-buttons, .cta-actions, .cta-section__
 body.dm .dm-cta div:not([class]):has(> a.btn) { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; margin-top: 26px; }
 body.dm .dm-cta a.btn { display: inline-flex; align-items: center; justify-content: center; gap: 10px; padding: 15px 26px; border-radius: 12px; font-weight: 800; text-decoration: none; }
 body.dm .dm-cta a.btn:is(.btn-primary, .btn-white, .btn--primary, .btn-accent) { background: var(--accent); color: var(--accent-ink); border: 0; box-shadow: 0 10px 26px var(--accent-glow); }
-body.dm .dm-cta a.btn:is(.btn-outline, .btn-outline-white, .btn-secondary, .btn--outline, .btn--outline-light) { background: rgba(255,255,255,.08); color: #fff; border: 1.5px solid rgba(255,255,255,.42); }
+body.dm .dm-cta a.btn:is(.btn-outline, .btn-outline-white, .btn-secondary, .btn--outline, .btn--outline-light, .btn--ghost, .btn-ghost) { background: rgba(255,255,255,.08); color: #fff; border: 1.5px solid rgba(255,255,255,.42); }
 
 /* ---------- responsive ---------- */
 @media (max-width: 1024px) {
@@ -209,6 +209,10 @@ body.dm .dm-band form label { font-weight: 700; font-size: .9rem; color: var(--i
 body.dm .dm-band form :is(button[type=submit], input[type=submit]) { width: 100%; padding: 16px; border: 0; border-radius: 12px; background: var(--accent); background-image: none; color: var(--accent-ink); font: 800 1.02rem/1 var(--body); cursor: pointer; box-shadow: 0 10px 26px var(--accent-glow); }
 body.dm .dm-cta .dm-cta__note { font-size: .98rem; opacity: .9; }
 body.dm .dm-band .contact-section { background: none; padding: 0; }
+@media (max-width: 860px) { body.dm .dm-band div[style*="grid-template-columns:1fr 1fr"], body.dm .dm-band div[style*="grid-template-columns: 1fr 1fr"] { grid-template-columns: 1fr !important; gap: 32px !important; } }
+body.dm ul.dm-checks li:has(> i.ph:first-child)::before { display: none; }
+body.dm ul.dm-checks li:has(> i.ph:first-child) { padding-left: 0; }
+body.dm ul.dm-checks li > i.ph:first-child { color: var(--brand); margin-right: 6px; }
 
 /* ---------- page heroes: photo + navy gradient, left aligned ---------- */
 body.dm .page-hero { position: relative; isolation: isolate; text-align: left; color: #fff; padding: clamp(64px, 8vw, 112px) 0 clamp(60px, 7vw, 96px); margin: 0;
@@ -346,6 +350,7 @@ body.dm :is(.error-section, .thankyou-section) { margin-top: 0 !important; paddi
 body.dm :is(.error-section, .thankyou-section) > .container { padding-top: 64px !important; padding-bottom: 64px !important; }
 body.dm header.header { position: sticky; top: 0; }
 body.dm footer p { color: rgba(255,255,255,.66); }
+body.dm footer a[href^="tel:"] { color: var(--accent) !important; }
 @media (max-width: 420px) { body.dm .header:has(.hamburger) .header-phone { display: none; } }
 
 @media (max-width: 1024px) {
