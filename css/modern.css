@@ -364,6 +364,7 @@ body.dm footer a[href^="tel:"] { color: var(--accent) !important; }
   body.dm.dm-home .gallery__grid { grid-template-columns: 1fr; }
   body.dm.dm-home .trust-bar__inner { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   body.dm.dm-home .trust-bar__item { padding: 16px 14px; font-size: .88rem; }
+  body.dm.dm-home .trust-bar__item:last-child:nth-child(odd) { grid-column: 1 / -1; }
 }
 @media (max-width: 640px) {
   body.dm .page-hero, body.dm:not(.dm-home) .hero { padding: 52px 0 56px; background-image: linear-gradient(180deg, var(--hero-a), var(--hero-b)), var(--hero-img, var(--dark)); }
@@ -374,4 +375,28 @@ body.dm footer a[href^="tel:"] { color: var(--accent) !important; }
   body.dm .area-list { display: grid; grid-template-columns: 1fr 1fr; }
   body.dm .area-list a { justify-content: flex-start; }
   body.dm :is(.error-section, .thankyou-section) > .container { padding-top: 36px !important; padding-bottom: 40px !important; }
+}
+
+/* Round 2 (2026-10-01): phone and tablet tap targets and text size. Media-query only; desktop unchanged. */
+@media (max-width: 1024px) {
+  body.dm :is(.header, .site-header) .logo, body.dm .nav .nav__logo { min-height: 44px; display: inline-block; line-height: 44px; }
+  body.dm .hamburger { min-width: 44px; min-height: 44px; display: inline-flex; align-items: center; justify-content: center; }
+  body.dm .nav .nav__links a, body.dm .site-header .nav-links a, body.dm .header nav.nav a { min-height: 44px; min-width: 44px; display: inline-flex; align-items: center; justify-content: center; }
+  body.dm .footer__links a, body.dm .footer-grid a { min-height: 44px; display: flex; align-items: center; gap: 6px; }
+  body.dm .footer-grid ul { margin: 0; }
+  body.dm .contact-detail a, body.dm .legal-content li a, body.dm .ai-geo-quick-facts li a { min-height: 44px; display: inline-flex; align-items: center; gap: 6px; }
+}
+@media (max-width: 768px) {
+  body.dm .footer__links, body.dm .footer-grid > div:has(> a + a) { display: grid; grid-template-columns: 1fr 1fr; column-gap: 16px; }
+  body.dm .footer-grid > div:has(> a + a) > :is(h3, h4, p) { grid-column: 1 / -1; }
+}
+@media (max-width: 480px) {
+  body.dm .blog-card-meta, body.dm .footer-grid p { font-size: 15px !important; }
+  body.dm .contact-detail > div, body.dm .contact-detail .value { overflow-wrap: anywhere; min-width: 0; }
+}
+@media (max-width: 480px) {
+  body.dm .cost-table th, body.dm .cost-table td { padding: 12px 10px; }
+}
+@media (max-width: 768px) {
+  body.dm .floating-cta { transform: none; opacity: 1; pointer-events: auto; }
 }
