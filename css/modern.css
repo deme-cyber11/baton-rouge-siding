@@ -445,3 +445,6 @@ body.dm .gallery__caption .gallery__overlay-label { color: var(--brand); }
   body.dm.dm-home :is(.hero__buttons, .hero__trust) { justify-content: center; }
   body.dm.dm-home .hero__stats { justify-content: center; justify-items: center; text-align: center; }
 }
+/* Tablet: the menu button shows only where the desktop links are hidden (the 1024px tap-target rule had turned it on next to the full nav). */
+@media (min-width: 901px) { body.dm .header .hamburger { display: none; } }
+@media (min-width: 769px) { body.dm .site-header .hamburger { display: none; } }
