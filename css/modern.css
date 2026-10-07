@@ -406,6 +406,8 @@ body.dm footer a[href^="tel:"] { color: var(--accent) !important; }
 body.dm :is(.header, .site-header) .logo span { color: var(--brand); }
 body.dm.dm-home .nav .nav__logo span { color: var(--accent); }
 body.dm.dm-home :is(.section-label--light, .ai-geo-quick-facts .section-label, .ai-geo-quick-facts a) { color: var(--accent); }
+body.dm.dm-home .quick-facts-section { --color-accent: var(--accent); }
+body.dm.dm-home .quick-facts-section .section-label { color: var(--accent); }
 body.dm :is(.service-link, .read-more, .legal-content a) { color: var(--brand); }
 body.dm.dm-location .breadcrumb a { color: var(--brand); }
 body.dm .map-placeholder span { color: var(--muted); }
