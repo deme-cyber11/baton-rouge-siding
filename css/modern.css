@@ -400,3 +400,48 @@ body.dm footer a[href^="tel:"] { color: var(--accent) !important; }
 @media (max-width: 768px) {
   body.dm .floating-cta { transform: none; opacity: 1; pointer-events: auto; }
 }
+
+/* Design pass 2026-10-07 */
+/* Brand text: dark amber on white headers, bright amber on the dark home header and dark home sections. */
+body.dm :is(.header, .site-header) .logo span { color: var(--brand); }
+body.dm.dm-home .nav .nav__logo span { color: var(--accent); }
+body.dm.dm-home :is(.section-label--light, .ai-geo-quick-facts .section-label, .ai-geo-quick-facts a) { color: var(--accent); }
+body.dm :is(.service-link, .read-more, .legal-content a) { color: var(--brand); }
+body.dm.dm-location .breadcrumb a { color: var(--brand); }
+body.dm .map-placeholder span { color: var(--muted); }
+/* Page hero breadcrumbs sit left, above the left-aligned title. */
+body.dm .page-hero .breadcrumb { justify-content: flex-start; }
+/* The sticky header already takes its own space: no second 72px gap above the location hero. */
+body.dm.dm-location > .hero { margin-top: 0; }
+/* Section headings on pages that ship without the inline section-header rule. */
+body.dm .section-header { text-align: center; margin-bottom: 48px; }
+body.dm .section-header p { max-width: 600px; margin-left: auto; margin-right: auto; }
+/* Icon lists: one marker, not the template dot plus the check icon. */
+body.dm .content-section ul[style*="list-style:none"] > li { padding-left: 0; }
+body.dm .content-section ul[style*="list-style:none"] > li::before { display: none; }
+/* Home estimate form: the form element shares a section class name that gave it 115px of vertical padding and none at the sides. */
+body.dm.dm-home .contact-row > form.contact-form { padding: clamp(22px, 3vw, 36px); border: 1px solid var(--line); border-radius: 16px; box-shadow: var(--shadow); }
+/* Thank-you secondary button. */
+body.dm .btn--ghost-navy { display: inline-flex; align-items: center; gap: 8px; min-height: 48px; padding: 12px 22px; border: 1.5px solid var(--dark); border-radius: 12px; color: var(--dark); font-weight: 700; text-decoration: none; background: transparent; }
+body.dm .btn--ghost-navy:hover { background: var(--dark); color: #fff; }
+/* Gallery: each project is one matched before and after pair with a visible caption. */
+body.dm .gallery__grid--pairs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 24px; }
+body.dm .gallery__item--pair { aspect-ratio: auto; cursor: default; background: #fff; border: 1px solid var(--line); box-shadow: var(--shadow); }
+body.dm .gallery__item--pair .ba-pair { display: grid; grid-template-columns: 1fr; gap: 3px; background: #fff; }
+body.dm .gallery__item--pair .ba-fig { position: relative; margin: 0; }
+body.dm .gallery__item--pair .ba-fig img { display: block; width: 100%; height: 210px; object-fit: cover; transform: none; }
+body.dm .gallery__item--pair .ba-tag { position: absolute; top: 10px; left: 10px; padding: 4px 10px; border-radius: 999px; background: rgba(15, 31, 51, .88); color: #fff; font-size: .72rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+body.dm .gallery__item--pair .ba-tag--after { background: var(--accent); color: var(--accent-ink); }
+body.dm .gallery__caption { padding: 14px 18px 16px; }
+body.dm .gallery__caption .gallery__overlay-title { color: var(--ink); margin-bottom: 2px; }
+body.dm .gallery__caption .gallery__overlay-label { color: var(--brand); }
+@media (max-width: 900px) {
+  body.dm .gallery__grid--pairs { grid-template-columns: 1fr; }
+  body.dm .gallery__item--pair .ba-pair { grid-template-columns: 1fr 1fr; }
+  body.dm .gallery__item--pair .ba-fig img { height: 170px; }
+}
+/* Home hero on phones: buttons, stats and badges centered under the centered text. */
+@media (max-width: 768px) {
+  body.dm.dm-home :is(.hero__buttons, .hero__trust) { justify-content: center; }
+  body.dm.dm-home .hero__stats { justify-content: center; justify-items: center; text-align: center; }
+}
