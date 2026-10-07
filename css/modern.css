@@ -447,4 +447,10 @@ body.dm .gallery__caption .gallery__overlay-label { color: var(--brand); }
 }
 /* Tablet: the menu button shows only where the desktop links are hidden (the 1024px tap-target rule had turned it on next to the full nav). */
 @media (min-width: 901px) { body.dm .header .hamburger { display: none; } }
-@media (min-width: 769px) { body.dm .site-header .hamburger { display: none; } }
+@media (min-width: 961px) { body.dm .site-header .hamburger { display: none; } }
+/* Older template header: at 769 to 960px the logo, six links and the phone button collided, so it uses the menu button there. */
+@media (min-width: 769px) and (max-width: 960px) {
+  body.dm .site-header .nav-links { display: none; }
+  body.dm .site-header .hamburger { display: inline-flex; }
+  body.dm .site-header .header-phone { margin-left: auto; margin-right: 12px; }
+}
